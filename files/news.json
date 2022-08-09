@@ -1,0 +1,54 @@
+{
+    "news": [
+        {
+            "title": "Title sadsa",
+            "text": "ectetur adipisicing elit. Laborum placeat delectus esse explicabo sed quisquam blanditiis, dolorum dolore expedita sequi distinctio doloribus sint tempora ad quod voluptas eveniet reiciendis possimus.",
+            "img": "newss.jpg",
+            "img_name": "newss",
+            "link_name": "ДЕТАЛЬНІШЕ",
+            "link": "https://yuriy-sam.github.io/Uber/"
+
+
+        },
+        {
+            "title": "Hdsfds ssda",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum placeat delectus esse explicabo sed quisquam blanditiis, dolorum dolore expedita sequi distinctio doloribus sint tempora ad quod voluptas eveniet reiciendis possimus.",
+            "img": "nutri.jpg",
+            "img_name": "nutri",
+            "link_name": "sadasss",
+            "link": "https://yuriy-sam.github.io/Uber/"
+
+
+        },
+        {
+            "title": "xcvxxxx sadsa",
+            "text": "Lorem ipsum dolor sit amet c.",
+            "img": "outline.jpg",
+            "img_name": "outline",
+            "link_name": "xcvxcv",
+            "link": "https://yuriy-sam.github.io/Uber/"
+
+
+        },
+        {
+            "title": "e43t4ef a",
+            "text": "Lorem ipsum fsdfsdfsd s fsdddexplicabo sed quisquam blanditiis, dolorum dolore expedita sequi distinctio doloribus sint tempora ad quod voluptas eveniet reiciendis possimus.",
+            "img": "nutri.jpg",
+            "img_name": "nutri",
+            "link_name": "57567yfg",
+            "link": "https://yuriy-sam.github.io/Uber/"
+
+
+        },
+        {
+            "title": "324234",
+            "text": "asdas explicabo sed quisquam blanditiis, dolorum dolore expedita sequi distinctio doloribus sint tempora ad quod voluptas eveniet reiciendis possimus.",
+            "img": "outline.jpg",
+            "img_name": "outline",
+            "link_name": "yiuyiy",
+            "link": "https://yuriy-sam.github.io/Uber/"
+
+
+        }
+    ]
+}

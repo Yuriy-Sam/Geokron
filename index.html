@@ -53,7 +53,7 @@
 
    
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220808164224">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220810001138">
     
     
 </head>
@@ -65,8 +65,16 @@
     <div class="container">
         <div class="header__list">
             <ul class="header__menu">
-                <li class="header__menu_item active"><a href="#" class="link">Головна</a></li>
-                <li class="header__menu_item"><a class="link" href="#works">Допомога</a></li>
+                <li class="header__menu_item active"><a href="#" class="header__menu_item__link">Головна</a></li>
+                <li class="header__menu_item">
+                    <ul class="header__products__menu">
+
+                        
+                    </ul>
+
+                    <a class="header__menu_item__link" href="#">Товари</a>
+    
+                </li>
                 <!-- <div class="header__prelogo">
                     <div class="header__logo">
                         <span></span>
@@ -122,10 +130,10 @@
 
                 </div>
 
-                <li class="header__menu_item"><a class="link" href="#about">Про нас</a></li>
+                <li class="header__menu_item"><a class="header__menu_item__link" href="#about">Про нас</a></li>
                 <!-- <li class="header__menu_item"><a href="#client">Контакт</a></li> -->
 
-                <li class="header__menu_item"><a class="link" href="#contact">Контакт</a></li>
+                <li class="header__menu_item"><a class="header__menu_item__link" href="#contact">Контакт</a></li>
 
             </ul>
 
@@ -157,7 +165,7 @@
         <div class="container">
             <div class="main__block">
                 <div class="main__text">
-                    <h1 class="main__title">Хто ми?</h1>
+                    <h1 class="main__title">geokron</h1>
                     <div class="main__subtitle"><h2 class="main__subtitle_typing"></h2></div>
                     <a href="#about"><button class="button">ДЕТАЛЬНІШЕ</button></a>
                 </div>
@@ -170,36 +178,23 @@
 
 
 </section>
-        <section class="helper" id="free">
+        <section class="products" id="products">
     <!-- <iframe src="https://www.youtube-nocookie.com/embed/2AgkvMyUMds?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <!-- <video autoplay muted loop id="myVideo">
         <source src="../files/video/georoo.mp4" type="video/mp4">
     </video> -->
 
-        <div class="container">
-            <div class="helper__block">
-                <div class="helper__text">
-                    <div class="helper__text__title">Безковштовна допомога</div>
-                    <div class="helper__text__text">Не працює навігація? Потрібне налаштування? Не коректно працює автопілот? Не працює навігація? Потрібне налаштування? Не коректно працює автопілот? </div>
-                    <a href="#"><button class="button button_helper">потрібна допомога</button></a>
-
-                </div>
-                <div class="helper__bg">
-                    <picture><source srcset="img/bg/helper_bg.webp" type="image/webp"><img src="img/bg/helper_bg.png" alt="helper" class="helper__bg__img"></picture>
-                    <img src="img/icons/arrow.svg" alt="arrow" class="helper__bg__arrow arrow_1">
-                    <img src="img/icons/arrow.svg" alt="arrow" class="helper__bg__arrow arrow_2">
-                    <img src="img/icons/arrow.svg" alt="arrow" class="helper__bg__arrow arrow_3">
-                    <img src="img/icons/arrow.svg" alt="arrow" class="helper__bg__arrow arrow_4">
-
-                    <div class="helper__bg__text text_1">не працює?</div>
-                    <div class="helper__bg__text text_2">потрібно налаштувати?</div>
-                    <div class="helper__bg__text text_3">не працює?</div>
-                    <div class="helper__bg__text text_4">потрібно налаштувати?</div>
-
-
-                </div>
+    <div class="container">
+        <div class="products__block">
+            <div class="products__wrapper">
+                <!-- <a class="products__item" href="">
+                    <picture><source srcset="img/products/ez_guide_250.webp" type="image/webp"><img src="img/products/ez_guide_250.png" alt="Ez-Guide 250" class="products__item__img"></picture>
+                    <div class="products__item__title">Ez-Guide 250</div>
+                </a> -->
             </div>
+
         </div>
+
     </div>
 
 
@@ -212,19 +207,7 @@
         <div class="container">
             <div class="news__wrapper">
                 <div class="news__row">
-                <!-- <div class="news__content"> -->
-                    <!-- <div class="news__bg">
-                        <div class="news__bg__overflow"></div>
-                        <picture><source srcset="img/news/newss.webp" type="image/webp"><img class="news__bg__img" src="img/news/newss.jpg" cover alt="news"></picture>
-                    </div>
-                    <div class="news__block">
-                        <div class="news__title">Title sadsa </div>
-                        <div class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum placeat delectus esse explicabo sed quisquam blanditiis, dolorum dolore expedita sequi distinctio doloribus sint tempora ad quod voluptas eveniet reiciendis possimus.</div>
-                        <form action="page/#" target="_blank">
-                            <button class="button">ДЕТАЛЬНІШЕ</button>
-                        </form>
-                    </div> -->
-                <!-- </div> -->
+
                 </div>
 
                 <div class="news__arrows">
@@ -264,13 +247,19 @@
         </div>
 
 </section>
-
         
+        <section class="footer">
+    <div class="container">
+        <div class="footer_wrapper">
+
+        </div>
+    </div>
+</section>
 
     </main>
     
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220808164224"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20220808164224"></script>
-    <script src="js/app.min.js?_v=20220808164224"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220810001138"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20220810001138"></script>
+    <script src="js/app.min.js?_v=20220810001138"></script>
 </body>
 </html>
