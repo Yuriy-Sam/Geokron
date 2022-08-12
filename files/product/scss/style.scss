@@ -1,0 +1,54 @@
+
+
+@import "base/normalize";
+@import "base/variables";
+@import "base/fonts";
+@import "base/buttons";
+@import "base/titles";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Gabriela', serif;
+    // cursor:  url(@img/pppng.png), auto;
+    // cursor:  url(cursor2.png) 2 2, pointer;
+    z-index: 2;
+    
+    
+}
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+body {
+    // cursor: auto;
+    // cursor: url('@img/cursor6.png'), auto;
+    position: relative;
+    background-color: var(--bg_color);
+}
+.container {
+    padding: 0 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.rotate {
+    margin: 0 auto;
+    position: absolute;
+    bottom: none;
+    top: -1px;
+    transform: rotate(180deg);
+    width: 100%;
+    z-index: 1;
+}
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/helper";
+@import "blocks/products";
+@import "blocks/news";
+@import "blocks/footer";
+
+
+
+@import "base/hamburger";
+@import "base/media";
+
