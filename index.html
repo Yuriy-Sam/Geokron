@@ -54,7 +54,7 @@
 
    
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220813144606">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220814180114">
     
     
 <!-- </head> -->
@@ -259,7 +259,68 @@
         </div>
 
 </section>
-        
+        <section class="contactForm" id="contactForm">
+    <!-- <iframe src="https://www.youtube-nocookie.com/embed/2AgkvMyUMds?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- <video autoplay muted loop id="myVideo">
+        <source src="../files/video/georoo.mp4" type="video/mp4">
+    </video> -->
+
+    <div class="container">
+        <form action="contactForm" method="$_POST">
+            <h2 class="contactForm__title">зверніться до нас</h2>
+            <div class="contactForm__wrapper">
+                <div class="contactForm__block">
+                    <label class="contactForm__label" for="name">Ім'я *</label>
+                    <input required placeholder="Олександр Самойленко" class="contactForm__input" name="name" type="text">
+                    <label class="contactForm__label" for="email">E-mail *</label>
+                    <input required placeholder="geokron@gmail.com" class="contactForm__input" name="email" type="email" >
+
+                </div>
+                <div class="contactForm__block">
+                    <label class="contactForm__label" for="company">Компанія</label>
+                    <input placeholder="Geokron" class="contactForm__input" name="company" type="text">
+                    <label class="contactForm__label" for="tel">Телефон</label>
+                    <input placeholder="+3809991231312" class="contactForm__input" name="tel" type="tel" >
+                </div>
+            </div>
+
+            <label class="contactForm__label" for="text">Текст *</label>
+            <textarea required placeholder="Текст" class="contactForm__input contactForm__textarea" name="text" cols="30" rows="10"></textarea>
+
+            <div class="contactForm__privaty">
+                <input required class="contactForm__privaty__input" name="privaty" type="checkbox" >
+                <a href="#"><label class="contactForm__privaty__label" for="privaty">Політика приватності</label></a>
+
+            </div>
+            <button class="button button__contactForm" type="submit" >відправити</button>
+            <div class="contactForm__social">
+                <a href="https://www.youtube.com/channel/UCdoLNUVdZpEjInZg0u1uicQ" target="_blank" class="contactForm__social__item">
+                    <svg  class="youtube" viewBox="0 0 39 27" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M37.1823 2.38544C35.803 0.745922 33.2566 0.0771484 28.3935 0.0771484H10.7405C5.76613 0.0771484 3.17657 0.789062 1.80253 2.53458C0.462891 4.23647 0.462891 6.74406 0.462891 10.2146V16.8295C0.462891 23.5532 2.05237 26.9669 10.7405 26.9669H28.3937C32.6109 26.9669 34.9478 26.3768 36.4596 24.9299C38.01 23.4462 38.6715 21.0236 38.6715 16.8295V10.2146C38.6715 6.55462 38.5679 4.03224 37.1823 2.38544ZM24.993 14.4353L16.9768 18.6249C16.7976 18.7185 16.6016 18.765 16.4059 18.765C16.1843 18.765 15.9632 18.7053 15.7673 18.5868C15.3985 18.3633 15.1733 17.9636 15.1733 17.5325V9.1803C15.1733 8.74989 15.3979 8.35055 15.7659 8.12697C16.1341 7.90339 16.592 7.8881 16.974 8.08654L24.9901 12.2491C25.398 12.4608 25.6541 12.8818 25.6547 13.3412C25.6552 13.801 25.4002 14.2226 24.993 14.4353Z"/>
+                    </svg>
+                        
+                </a>
+                <a href="https://www.instagram.com/geokron.navigation/" target="_blank" class="contactForm__social__item">
+                    <svg class="instagram" viewBox="0 0 35 34" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.2827 0.263672H10.7174C5.20441 0.263672 0.719238 4.74884 0.719238 10.2619V23.8271C0.719238 29.3402 5.20441 33.8253 10.7174 33.8253H24.2827C29.7957 33.8253 34.2809 29.3402 34.2809 23.8271V10.2619C34.2808 4.74884 29.7957 0.263672 24.2827 0.263672ZM30.9046 23.8271C30.9046 27.4843 27.9398 30.449 24.2827 30.449H10.7174C7.06029 30.449 4.09554 27.4843 4.09554 23.8271V10.2619C4.09554 6.60467 7.06029 3.63997 10.7174 3.63997H24.2827C27.9398 3.63997 30.9046 6.60467 30.9046 10.2619V23.8271Z"/>
+                        <path d="M17.5001 8.36426C12.7138 8.36426 8.81982 12.2582 8.81982 17.0444C8.81982 21.8307 12.7138 25.7247 17.5001 25.7247C22.2863 25.7247 26.1803 21.8307 26.1803 17.0444C26.1803 12.2581 22.2863 8.36426 17.5001 8.36426ZM17.5001 22.3484C14.5708 22.3484 12.1961 19.9738 12.1961 17.0445C12.1961 14.1152 14.5708 11.7406 17.5001 11.7406C20.4294 11.7406 22.804 14.1152 22.804 17.0445C22.804 19.9737 20.4293 22.3484 17.5001 22.3484Z"/>
+                        <path d="M26.1971 10.5094C27.3458 10.5094 28.277 9.57821 28.277 8.42951C28.277 7.28081 27.3458 6.34961 26.1971 6.34961C25.0484 6.34961 24.1172 7.28081 24.1172 8.42951C24.1172 9.57821 25.0484 10.5094 26.1971 10.5094Z"/>
+                    </svg>
+                        
+                </a>
+                <a href="https://www.facebook.com/people/Geokron-Navigation/100073223409518/?locale=he_IL" target="_blank" class="contactForm__social__item">
+                    <svg  class="facebook" viewBox="0 0 18 34" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.02032 18.1386H4.69922V33.284C4.69922 33.583 4.94151 33.8253 5.24053 33.8253H11.4782C11.7773 33.8253 12.0196 33.583 12.0196 33.284V18.2099H16.2488C16.5237 18.2099 16.7551 18.0036 16.7865 17.7305L17.4288 12.1547C17.4465 12.0013 17.3979 11.8476 17.2952 11.7326C17.1925 11.6174 17.0455 11.5514 16.8912 11.5514H12.0198V8.05625C12.0198 7.00263 12.5871 6.46835 13.7061 6.46835C13.8656 6.46835 16.8912 6.46835 16.8912 6.46835C17.1902 6.46835 17.4325 6.22595 17.4325 5.92704V0.808995C17.4325 0.509971 17.1902 0.267678 16.8912 0.267678H12.5017C12.4707 0.266162 12.4019 0.263672 12.3006 0.263672C11.539 0.263672 8.89161 0.413183 6.80039 2.33702C4.48334 4.46895 4.80542 7.02158 4.8824 7.46416V11.5513H1.02032C0.721297 11.5513 0.479004 11.7936 0.479004 12.0926V17.5972C0.479004 17.8962 0.721297 18.1386 1.02032 18.1386Z"/>
+                    </svg>
+                </a>
+            </div>
+        </form>
+
+    </div>
+
+
+
+</section>
         <section class="footer">
     <div class="container">
         <div class="footer_wrapper">
@@ -278,8 +339,8 @@
     </div>
     
 </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220813144606"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20220813144606"></script>
-    <script src="js/app.min.js?_v=20220813144606"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220814180114"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20220814180114"></script>
+    <script src="js/app.min.js?_v=20220814180114"></script>
 </body>
 </html>
